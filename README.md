@@ -10,7 +10,8 @@ This dataset is introduced and evaluated in the following conference paper:
 Title: *PersianILP: Construction and Evaluation of a Standard Persian Dataset for Inductive Link Prediction*  
 Published in: **2025 15th International Conference on Computer and Knowledge Engineering (ICCKE)**  
 Conference Date: 28–29 October 2025  
-IEEE Xplore Date: 10 December 2025  
+IEEE Xplore Date: 10 December 2025
+DIO:10.1109/ICCKE68588.2025.11273817
 
 ## Citation
 If you use this dataset in your research, please cite the above paper.
