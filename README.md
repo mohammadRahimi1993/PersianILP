@@ -1,6 +1,25 @@
 # 📚 PersianILP: Construction and Evaluation of a Standard Persian Dataset for Inductive Link Prediction
 
 ## Abstract
+<div align="justify">
+
+Link prediction in knowledge graphs is a key task aimed at addressing the challenge of graph sparsity. In inductive link prediction, a model is trained on one graph and evaluated on another containing unseen entities. While twelve inductive datasets have been introduced for English to benchmark models in this domain, no such dataset exists for Persian.
+
+This study introduces **PersianILP**, the first Persian dataset designed for inductive link prediction. PersianILP is constructed through a purposeful combination of real-world data extracted from the Farsbase knowledge graph and synthetic data generated using the DeepSeek language model.
+
+To evaluate PersianILP, key criteria such as structural and semantic diversity, statistical alignment between synthetic and real data, and adherence to inductive evaluation principles were considered. The dataset is compared with twelve benchmark datasets, including WN18RR, FB237, and NELL995.
+
+PersianILP contains **191,415 semantic triples**, **49,951 entities**, and **2,728 unique relations**, exhibiting a highly sparse structure with a sparsity rate of **0.99**. Evaluation using a baseline inductive link prediction model confirms the dataset’s high quality and effectiveness.
+
+Statistical analyses further demonstrate that PersianILP meets all essential requirements for research in inductive link prediction and can serve as a standard resource for studies in Persian language processing, the semantic web, and recommender systems.
+
+</div>
+
+
+
+
+
+
 Link prediction in knowledge graphs is a key task aimed at addressing the challenge of graph sparsity. In inductive link prediction, a model is trained on one graph and evaluated on another containing unseen entities. While twelve inductive datasets have been introduced for English to benchmark models in this domain, no such dataset exists for Persian.  This study introduces **PersianILP**, the first Persian dataset designed for inductive link prediction. PersianILP is constructed through a purposeful combination of real-world data extracted from the Farsbase knowledge graph and synthetic data generated using the DeepSeek language model. To evaluate PersianILP, key criteria such as structural and semantic diversity, statistical alignment between synthetic and real data, and adherence to inductive evaluation principles were considered. The dataset is compared with twelve benchmark datasets, including WN18RR, FB237, and NELL995. PersianILP contains **191,415 semantic triples**, **49,951 entities**, and **2,728 unique relations**, exhibiting a highly sparse structure with a sparsity rate of **0.99**. Evaluation using a baseline inductive link prediction model confirms the dataset’s high quality and effectiveness. Statistical analyses further demonstrate that PersianILP meets all essential requirements for research in inductive link prediction and can serve as a standard resource for studies in Persian language processing, the semantic web, and recommender systems.
 
 ## ⚙️ Installation Requirements
@@ -24,17 +43,17 @@ pip install deep-translator
 
 
 ## Publication
-```
-This dataset is introduced and evaluated in the following conference paper:
+This dataset is presented and systematically evaluated in the following conference paper. If you use this dataset in your research or experiments, please cite the following publication:
+
+```bibtex
 @inproceedings{PersianILP,
-   author = {Rahimi, Mohammad and Fatemi, Afsaneh and Baraani, Ahmad},
-   title = {PersianILP: Construction and Evaluation of a Standard Persian Dataset for Inductive Link Prediction},
-   booktitle = {2025 15th International Conference on Computer and Knowledge Engineering (ICCKE)},
-   year = {2025},
-   pages = {to appear},
-   doi = {10.1109/ICCKE68588.2025.11273817},
-   url = {https://ieeexplore.ieee.org/document/11273817/}
-   }
+  author    = {Mohammad Rahimi and Afsaneh Fatemi and Ahmad Baraani},
+  title     = {PersianILP: Construction and Evaluation of a Standard Persian Dataset for Inductive Link Prediction},
+  booktitle = {2025 15th International Conference on Computer and Knowledge Engineering (ICCKE)},
+  year      = {2025},
+  doi       = {10.1109/ICCKE68588.2025.11273817},
+  url       = {https://ieeexplore.ieee.org/document/11273817/}
+}
 ```
 
 
@@ -46,5 +65,3 @@ PersianILP/
 ├── Scripts/             # Deep learning models
 └── README.md            # Project documentation
 ```
-## 🤝 Contributing
-Interested in improving PersianILP? Contributions are welcome! Please submit a pull request and describe the changes you'd like to make.
