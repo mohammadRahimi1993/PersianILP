@@ -9,8 +9,8 @@ Link prediction in knowledge graphs is a key task aimed at addressing the challe
 
 ## ⚙️ Installation Requirements
 <div align="justify">
-Before running the code, please install the following libraries. Make sure to use the specified versions to ensure full compatibility with PersianILP:
-</div>
+Before running the code, please install the following libraries. Make sure to use the specified versions to ensure full compatibility with PersianILP:</div>
+
 ```bash
 pip install torch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0
 pip install dgl -f https://data.dgl.ai/wheels/torch-2.2/repo.html
@@ -21,16 +21,11 @@ pip install scikit-learn
 pip install deep-translator
 ```
 
-
-
 > 💡 Note: DGL must be installed using the provided link to match the PyTorch 2.2 version.
 ## 🧠 Key Features
 - Supports inductive learning models for semantic graph analysis  
 - Tailored for Persian language with linguistic-specific considerations  
 - Suitable for link prediction, semantic reasoning, and conceptual translation tasks
-
-
-
 
 
 ## Publication
