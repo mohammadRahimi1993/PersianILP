@@ -24,6 +24,7 @@ pip install deep-translator
 
 
 ## Publication
+```
 This dataset is introduced and evaluated in the following conference paper:
 @inproceedings{PersianILP,
    author = {Rahimi, Mohammad and Fatemi, Afsaneh and Baraani, Ahmad},
@@ -34,7 +35,7 @@ This dataset is introduced and evaluated in the following conference paper:
    doi = {10.1109/ICCKE68588.2025.11273817},
    url = {https://ieeexplore.ieee.org/document/11273817/}
    }
-
+```
 
 
 ## 📁 Project Structure
