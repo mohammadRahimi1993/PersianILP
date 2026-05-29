@@ -6,7 +6,9 @@ Link prediction in knowledge graphs is a key task aimed at addressing the challe
 </div>
 
 ## ⚙️ Installation Requirements
+<div align="justify">
 Before running the code, please install the following libraries. Make sure to use the specified versions to ensure full compatibility with PersianILP:
+</div>
 
 ```bash
 pip install torch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0
@@ -26,13 +28,15 @@ pip install deep-translator
 
 
 ## Publication
+<div align="justify">
 This dataset is presented and systematically evaluated in the following conference paper. If you use this dataset in your research or experiments, please cite the following publication:
-
+<div>
+  
 ```bibtex
 @inproceedings{PersianILP,
   author    = {Mohammad Rahimi and Afsaneh Fatemi and Ahmad Baraani},
   title     = {PersianILP: Construction and Evaluation of a Standard Persian Dataset for Inductive Link Prediction},
-  booktitle = {2025 15th International Conference on Computer and Knowledge Engineering (ICCKE)},
+  Conference = {2025 15th International Conference on Computer and Knowledge Engineering (ICCKE)},
   year      = {2025},
   doi       = {10.1109/ICCKE68588.2025.11273817},
   url       = {https://ieeexplore.ieee.org/document/11273817/}
